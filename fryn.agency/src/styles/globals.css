@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Peyda";
+    src: url("../../public/fonts/PeydaWeb-Regular.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Peyda";
+    src: url("../../public/fonts/PeydaWeb-SemiBold.woff");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Peyda";
+    src: url("../../public/fonts/PeydaWeb-Black.woff");
+    font-weight: 900;
+}
+
+a,h1,h2,h3,h4,h5,h6,p,span {
+    direction: rtl;
+}
