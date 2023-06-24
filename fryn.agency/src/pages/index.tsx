@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <div className="w-full bg-rose-500 lg:h-[85vh] md:h-[48vh] h-[33vh]">
+      <div className="w-full bg-rose-500 lg:h-[85vh] md:h-[48vh] sm:h-[33vh] h-[42vh]">
         <div className="title relative flex flex-col items-center pt-28 font-bodyFont font-bold text-white lg:pt-44">
           <motion.span
             initial={{ opacity: 0, scale: 0.5 }}
@@ -54,7 +54,7 @@ export default function Home() {
           transition={{ ease: "easeOut", duration: 1.5 }}
           className="title mt-44 flex flex-col lg:items-end lg:mt-96 items-center"
         >
-          <h1 className=" text-6xl font-bold lg:text-9xl ">خدمات ما</h1>
+          <h1 className=" md:text-6xl font-bold lg:text-9xl  text-4xl">خدمات ما</h1>
           <p className="text-md max-w-lg text-center lg:text-right">
             ما یک تیم دیجیتال مارکتینگ در مازندران هستیم و تمرکز ما بر ارائه
             خدمات مبتنی محتوا هست و به دنبال افزایش فروش و شناخت شدن برند شما
@@ -123,7 +123,7 @@ export default function Home() {
 
       <div className="fourth flex h-auto flex-col items-center px-10 font-bodyFont text-black lg:px-20 bg-slate-200">
         <div className="title mt-56 flex flex-col lg:items-end items-center">
-          <h1 className=" mb-6 text-6xl font-bold lg:text-9xl">پروژه های ما</h1>
+          <h1 className=" mb-6 text-4xl md:text-6xl font-bold lg:text-9xl">پروژه های ما</h1>
           <p className="text-md mb-10 max-w-xl text-center">
             در این قسمت ما بخشی از پروژه های موفق با مشتریانمون رو با شما به
             اشتراک میذاریم تا به راحتی بتونید از کیفیت خدمات ما اطمینان خاطر
