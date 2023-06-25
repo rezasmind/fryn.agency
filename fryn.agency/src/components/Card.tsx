@@ -11,15 +11,19 @@ import Footer from "~/components/Footer";
 import { motion } from "framer-motion";
 
 const Card = (props: any) => {
-    return(
-        <div className="lg:w-1/4 w-1/2">
-            <Image src={props.img} alt=""/>
-            <div className="box w-full px-4 py-4 bg-white border border-rose-500">
-                <h1 className="font-bodyFont font-bold text-3xl text-center text-rose-500">{props.name}</h1>
-                <h4 className="font-bodyFont text-md text-center">{props.role}</h4>
-            </div>
+  return (
+    <>
+      <div className="w-1/2 lg:w-1/4">
+        <Image src={props.img} alt="" />
+        <div className="box w-full border border-rose-500 bg-white px-4 py-4">
+          <h1 className="text-center font-bodyFont text-3xl font-bold text-rose-500">
+            {props.name}
+          </h1>
+          <h4 className="text-md text-center font-bodyFont">{props.role}</h4>
         </div>
-    )
-}
+      </div>
+    </>
+  );
+};
 
-export default Card
+export default Card;
