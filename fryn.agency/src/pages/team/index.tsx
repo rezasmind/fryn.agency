@@ -15,12 +15,14 @@ import mmd from 'public/mmd.png'
 import nazanin from 'public/nazanin.png'
 import ashkan from 'public/ashkan.png'
 import aryan from 'public/aryan.png'
+import bg from 'public/bg.png'
 
 const Team = () => {
   return (
     <>
       <Header />
       <div className="team flex  h-screen flex-col items-center justify-center font-bodyFont text-white">
+        <Image src={bg} alt="" fill className="absolute -z-10"/>
         <h1 className="mb-8 lg:text-7xl text-5xl font-bold">با تیم ما آشنا بشید!</h1>
         <p className=" lg:max-w-xl max-w-sm text-center text-xl ">
           تیم فریان با تکیه بر اصول اولیه آژانس یعنی خلاقیت و محتوای با ارزش شکل گرفته تمامی اعضای تیم هدف مشترکی دارند که آن هم رشد و بهبود کسب و کار مشتریان ما است.
