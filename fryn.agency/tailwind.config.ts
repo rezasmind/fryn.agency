@@ -8,7 +8,7 @@ export default {
         'bodyFont' :['Peyda', 'cursive'],
       },
       backgroundImage: {
-        'first-bg': "url('/public/first-bg.png')"
+        'first-bg': "url('/public/bg.png/')"
       }
     },
   },
