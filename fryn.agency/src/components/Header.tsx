@@ -7,12 +7,13 @@ const Header = () => {
   return (
     <div className="flex flex-row items-center justify-center mt-5 ">
       <div className="flex md:hidden flex-row-reverse w-screen justify-between">
-        <Image src={logo} width={50} alt="" className="rounded-full" />
+      <Link href={"/"} className=""><Image src={logo} width={75} alt="" className="rounded-full pr-8" /></Link>
+        
         <HamburgerMenu />
       </div>
       <header className="rtl hidden h-20 w-screen flex-row-reverse items-center gap-12 bg-[#0072ff]  font-bodyFont text-lg text-white md:flex">
 
-        <Image src={logo} width={50} alt="" className="rounded-full mr-20" />
+      <Link href={"/"}><Image src={logo} width={120} alt="" className="rounded-full pr-8" /></Link>
         <div className="w-screen flex gap-12  flex-row-reverse justify-center items-center absolute">
         <Link href={"/"}>صفحه اصلی</Link>
         <Link href={"https://portfolio.fryn.agency"}> نمونه کار</Link>
