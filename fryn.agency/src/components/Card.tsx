@@ -13,9 +13,9 @@ import { motion } from "framer-motion";
 const Card = (props: any) => {
   return (
     <>
-      <div className="w-1/2 lg:w-1/4">
+      <div className="w-1/2 lg:w-1/4 flex flex-col justify-center items-center ">
         <Image src={props.img} alt="" className="member-img"/>
-        <div className="box w-full border-4 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl border-[#0072ff] bg-white px-4 py-4">
+        <div className="box w-4/5 border-4 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl border-[#0072ff] bg-white px-2 py-4">
           <h1 className="text-center font-bodyFont text-3xl font-bold text-[#0072ff]">
             {props.name}
           </h1>

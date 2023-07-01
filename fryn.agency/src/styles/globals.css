@@ -10,8 +10,8 @@
 
 @keyframes wiggle {
   0% { transform: rotate(0deg); }
- 33% { transform: rotate(1deg); }
- 66% { transform: rotate(-1deg); }
+ 33% { transform: rotate(0.5deg); }
+ 66% { transform: rotate(-0.5deg); }
 100% { transform: rotate(0deg); }
 }
 
@@ -34,7 +34,7 @@
 }
 
 .member-img:hover {
-  animation: wiggle 0.2s ease-in;
+  animation: wiggle 0.3s ease-in;
   filter: grayscale(0%);
 }
 
