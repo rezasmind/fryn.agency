@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <div className="w-full bg-rose-500 lg:h-[85vh] xl:h-[90vh] md:h-[48vh] sm:h-[33vh] h-[42vh]">
+      <div className="w-full bg-[#0072ff] lg:h-[85vh] xl:h-[90vh] md:h-[48vh] sm:h-[33vh] h-[42vh]">
         <div className="title relative flex flex-col items-center pt-28 font-bodyFont font-bold text-white lg:pt-44">
           <motion.span
             initial={{ opacity: 0, scale: 0.5 }}
@@ -42,6 +42,7 @@ export default function Home() {
         <Image
           src={character}
           width={2040}
+          quality={100}	
           alt=""
           className="xl:-translate-y-[24vh] lg:-translate-y-[20vh] md:-translate-y-[10vh] -translate-y-[8vh]"
         />
@@ -67,29 +68,29 @@ export default function Home() {
           transition={{ ease: "easeOut", duration: 1.5 }}
           className="services mb-56 mt-20 flex flex-col gap-12"
         >
-          <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 transition-all delay-75 ease-in hover:bg-rose-500 hover:text-white ">
+          <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 transition-all delay-75 ease-in hover:bg-[#0072ff] hover:text-white ">
             <h1 className="text-2xl font-bold lg:text-3xl">برندینگ</h1>
             <Image src={circle} width={50} alt="" />
           </div>
 
-          <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 transition-all delay-75 ease-in hover:bg-rose-500 hover:text-white">
+          <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 transition-all delay-75 ease-in hover:bg-[#0072ff] hover:text-white">
             <h1 className="text-2xl font-bold lg:text-3xl">تبلیغات</h1>
             <Image src={circle} width={50} alt="" />
           </div>
 
-          <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 transition-all delay-75 ease-in hover:bg-rose-500 hover:text-white">
+          <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 transition-all delay-75 ease-in hover:bg-[#0072ff] hover:text-white">
             <h1 className="text-2xl font-bold lg:text-3xl">تولید محتوا</h1>
             <Image src={circle} width={50} alt="" />
           </div>
 
-          <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 transition-all delay-75 ease-in hover:bg-rose-500 hover:text-white">
+          <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 transition-all delay-75 ease-in hover:bg-[#0072ff] hover:text-white">
             <h1 className="text-2xl font-bold lg:text-3xl">
               اینستاگرام مارکتینگ
             </h1>
             <Image src={circle} width={50} alt="" />
           </div>
 
-          <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 transition-all delay-75 ease-in hover:bg-rose-500 hover:text-white">
+          <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 transition-all delay-75 ease-in hover:bg-[#0072ff] hover:text-white">
             <h1 className="text-2xl font-bold lg:text-3xl">طراحی سایت</h1>
             <Image src={circle} width={50} alt="" />
           </div>
@@ -97,7 +98,7 @@ export default function Home() {
       </motion.div>
 
 
-      <div className="third h-auto bg-rose-500 px-16 py-40 font-bodyFont text-white lg:px-52">
+      <div className="third h-auto bg-[#0072ff] px-16 py-40 font-bodyFont text-white lg:px-52">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 100 }}

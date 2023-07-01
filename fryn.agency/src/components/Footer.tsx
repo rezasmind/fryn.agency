@@ -9,17 +9,17 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 const Footer = () => {
   return (
     <>
-      <Image src={bar} width={2040} alt="" className=" bg-rose-500" />
-      <div className="h-auto bg-rose-500  pt-40 font-bodyFont text-white">
+      <Image src={bar} width={2040} alt="" className=" bg-[#0072ff]" />
+      <div className="h-auto bg-[#0072ff]  pt-40 font-bodyFont text-white">
         <div className="title flex flex-col items-center px-10 lg:items-end lg:px-20">
           <h1 className="text-center text-6xl font-bold lg:text-right lg:text-9xl">
             همین الان شروع کنید.
           </h1>
           <Link
             href={"/contact-us"}
-            className="transition-all delay-75 ease-in hover:bg-rose-500  hover:text-white"
+            className="transition-all delay-75 ease-in hover:bg-[#0072ff]  hover:text-white"
           >
-            <p className="mb-10 mt-10 inline-block rounded-full bg-white px-10 py-4 text-xl font-bold text-rose-500 lg:text-3xl">
+            <p className="mb-10 mt-10 inline-block rounded-full bg-white px-10 py-4 text-xl font-bold text-[#0072ff] lg:text-3xl">
               تماس با ما
             </p>
           </Link>
