@@ -28,7 +28,7 @@ const Team = () => {
           تیم فریان با تکیه بر اصول اولیه آژانس یعنی خلاقیت و محتوای با ارزش شکل گرفته تمامی اعضای تیم هدف مشترکی دارند که آن هم رشد و بهبود کسب و کار مشتریان ما است.
         </p>
       </div>
-      <div className=" h-auto mb-44 member flex lg:gap-52 flex-col lg:flex-row px-10 flex-wrap justify-center items-center">
+      <div className=" h-auto py-44 member flex lg:gap-52 flex-col lg:flex-row px-10 flex-wrap justify-center items-center bg-white">
         <Card img={reza} name="رضا آقاجانی" role="بنیان گذار فریان"/>
         <Card img={mmd} name="امیر محمد سپاهی" role="مدیر خلاقیت و متخصص بازاریابی محتوایی" />
         <Card img={nazanin} name="نازنین حسینی" role="مدیر خلاقیت و تولید کننده محتوا"/>

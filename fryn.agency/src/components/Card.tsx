@@ -14,8 +14,8 @@ const Card = (props: any) => {
   return (
     <>
       <div className="w-1/2 lg:w-1/4">
-        <Image src={props.img} alt="" />
-        <div className="box w-full border border-rose-500 bg-white px-4 py-4">
+        <Image src={props.img} alt="" className="member-img"/>
+        <div className="box w-full border-4 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl border-rose-500 bg-white px-4 py-4">
           <h1 className="text-center font-bodyFont text-3xl font-bold text-rose-500">
             {props.name}
           </h1>
