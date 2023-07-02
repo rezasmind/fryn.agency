@@ -13,6 +13,11 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <>
+    <Head>
+        <title>درباره ما | آژانس تبلیغاتی فریان</title>
+        <meta name="description" content="FRYN Marketing Agency" />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
       <Header />
       <div className=" flex h-screen flex-col items-center justify-center font-bodyFont text-white">
         <h1 className="mb-8 lg:text-7xl text-5xl font-bold">استودیو فریان</h1>

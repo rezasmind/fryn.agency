@@ -20,6 +20,11 @@ import bg from 'public/bg.png'
 const Team = () => {
   return (
     <>
+    <Head>
+        <title>تیم | آژانس تبلیغاتی فریان</title>
+        <meta name="description" content="Team | FRYN Marketing Agency" />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
       <Header />
       <div className="team flex  h-screen flex-col items-center justify-center font-bodyFont text-white">
         <Image src={bg} alt="" fill className="absolute -z-10"/>
