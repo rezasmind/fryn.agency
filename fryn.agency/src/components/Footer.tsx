@@ -17,9 +17,9 @@ const Footer = () => {
           </h1>
           <Link
             href={"/contact-us"}
-            className="transition-all delay-75 ease-in hover:bg-[#0072ff]  hover:text-white"
+            className=" "
           >
-            <p className="mb-10 mt-10 inline-block rounded-full bg-white px-10 py-4 text-xl font-bold text-[#0072ff] lg:text-3xl">
+            <p className="mb-10 mt-10 transition-all delay-75 ease-in inline-block rounded-full bg-white  px-10 py-4 text-xl font-bold text-[#0072ff] lg:text-3xl hover:bg-[#0072ff]  hover:text-white hover:border-white hover:border">
               تماس با ما
             </p>
           </Link>
