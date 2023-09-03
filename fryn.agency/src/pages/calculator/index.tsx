@@ -8,11 +8,11 @@ const Calculator = () => {
   const [shots, setShots] = useState(0);
   const [admin, setAdmin] = useState(1);
 
-  const changeReels = (e) => {
+  const changeReels = (e: any) => {
     setReels(e.target.value);
   };
 
-  const changeShots = (e) => {
+  const changeShots = (e: any) => {
     setShots(e.target.value);
   };
 
