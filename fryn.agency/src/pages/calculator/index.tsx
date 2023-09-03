@@ -41,7 +41,7 @@ const Calculator = () => {
           فرم محاسبه قیمت خدمات فریان
         </h1>
 
-        <div className="h-auto w-1/3 bg-white p-12 text-right text-blue-500">
+        <div className="h-auto md:w-1/3 w-auto mx-5 bg-white p-12 text-right text-blue-500">
           <form action="" className="text-center">
             <h1 className="mb-3 text-xl">تولید محتوا ویدیویی (ریلز)</h1>
             عدد{" "}
