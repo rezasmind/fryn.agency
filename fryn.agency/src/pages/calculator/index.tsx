@@ -30,6 +30,9 @@ const Calculator = () => {
     } else if (admin == 3) {
       adminPrice = 2000000;
       setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
+    } else if (admin == 4) {
+      adminPrice = 0
+            setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
     }
   };
 
@@ -101,6 +104,15 @@ const Calculator = () => {
               name="plan"
               id="admin-3"
               onClick={() => setAdmin(3)}
+            />
+            <label htmlFor="" className="">
+            هیچکدام{" "}
+            </label>
+            <input
+              type="radio"
+              name="plan"
+              id="admin-4"
+              onClick={() => setAdmin(4)}
             />
           </form>
           <hr className="my-3" />
