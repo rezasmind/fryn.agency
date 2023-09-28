@@ -17,8 +17,8 @@ const Calculator = () => {
   };
 
   const calculatePrice = () => {
-    var shotsPrice = shots * 100000;
-    var reelsPrice = reels * 450000;
+    var shotsPrice = shots * 150000;
+    var reelsPrice = reels * 650000;
     var adminPrice = 0;
 
     if (admin == 1) {
