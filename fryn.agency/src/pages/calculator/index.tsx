@@ -22,7 +22,7 @@ const Calculator = () => {
     var adminPrice = 0;
 
     if (admin == 1) {
-      adminPrice = 5000000;
+      adminPrice = 4000000;
       setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
     } else if (admin == 2) {
       adminPrice = 3500000;
@@ -72,14 +72,14 @@ const Calculator = () => {
             />
           </form>
           <hr className="my-3" />
-          <h1 className="mb-3 text-center text-xl">ادمین حضوری</h1>
+          <h1 className="mb-3 text-center text-xl">ادمین استوری</h1>
           <form
             action=""
             className="flex w-full flex-row-reverse items-center justify-center gap-3"
           >
             <label htmlFor="" className="">
               {" "}
-              روزانه
+              میخواهم
             </label>
             <input
               type="radio"
@@ -87,26 +87,8 @@ const Calculator = () => {
               id="admin-1"
               onClick={() => setAdmin(1)}
             />
-            <label htmlFor="" className="text-right">
-              سه روز در هفته{" "}
-            </label>
-            <input
-              type="radio"
-              name="plan"
-              id="admin-2"
-              onClick={() => setAdmin(2)}
-            />
             <label htmlFor="" className="">
-              یک روز در هفته{" "}
-            </label>
-            <input
-              type="radio"
-              name="plan"
-              id="admin-3"
-              onClick={() => setAdmin(3)}
-            />
-            <label htmlFor="" className="">
-            هیچکدام{" "}
+            نمیخواهم{" "}
             </label>
             <input
               type="radio"
