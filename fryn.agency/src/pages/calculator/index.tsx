@@ -7,8 +7,8 @@ const Calculator = () => {
   const [reels, setReels] = useState(0);
   const [shots, setShots] = useState(0);
   const [admin, setAdmin] = useState(1);
-  const [marketer, setMarketer] = useState(0)
-  var est = price * 1.07
+  const [marketer, setMarketer] = useState(0);
+  var est = price * 1.07;
 
   const changeReels = (e: any) => {
     setReels(e.target.value);
@@ -33,12 +33,11 @@ const Calculator = () => {
       adminPrice = 2000000;
       setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
     } else if (admin == 4) {
-      adminPrice = 0
-            setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
+      adminPrice = 0;
+      setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
     }
 
-    
-    setMarketer(price * 0.07)
+    setMarketer(price * 0.07);
   };
 
   return (
@@ -49,7 +48,7 @@ const Calculator = () => {
           فرم محاسبه قیمت خدمات فریان
         </h1>
 
-        <div className="h-auto md:w-1/3 w-auto mx-5 bg-white p-12 text-right text-blue-500">
+        <div className="mx-5 h-auto w-auto bg-white p-12 text-right text-blue-500 md:w-1/3">
           <form action="" className="text-center">
             <h1 className="mb-3 text-xl">تولید محتوا ویدیویی (ریلز)</h1>
             عدد{" "}
@@ -93,7 +92,7 @@ const Calculator = () => {
               onClick={() => setAdmin(1)}
             />
             <label htmlFor="" className="">
-            نمیخواهم{" "}
+              نمیخواهم{" "}
             </label>
             <input
               type="radio"
@@ -127,6 +126,15 @@ const Calculator = () => {
             <input type="checkbox" name="" id="" checked disabled />
           </form>
           <hr className="my-3" />
+          <p className="my-4 text-center">
+            هزینه ها: <br />
+            هر شات عکاسی - ۷۵ هزار تومان <br />
+            هر ویدیو - ۱۲۰ هزار تومان <br />
+            ادمین حضوری برای ۳ تا ۴ استوری روزانه - ۲ میلیون تومان
+            <br />
+            هزینه ادمین تعامل - ۵۰۰ هزار تومان
+            <br />
+          </p>
           <div className="flex flex-col items-center justify-center">
             <button
               className="border-1 mb-3 rounded-sm border border-blue-500 px-4 py-2 hover:bg-blue-500 hover:text-white"
