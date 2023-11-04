@@ -7,6 +7,8 @@ const Calculator = () => {
   const [reels, setReels] = useState(0);
   const [shots, setShots] = useState(0);
   const [admin, setAdmin] = useState(1);
+  const [marketer, setMarketer] = useState(0)
+  var est = price * 1.07
 
   const changeReels = (e: any) => {
     setReels(e.target.value);
@@ -34,6 +36,9 @@ const Calculator = () => {
       adminPrice = 0
             setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
     }
+
+    
+    setMarketer(price * 0.07)
   };
 
   return (
@@ -131,7 +136,11 @@ const Calculator = () => {
             </button>
 
             <h1 className="font-bold">
-              قیمت نهایی: {price.toLocaleString()} تومان
+              قیمت نهایی: {est.toLocaleString()} تومان
+            </h1>
+
+            <h1 className="font-bold">
+              قیمت بازاریاب: {marketer.toLocaleString()} تومان
             </h1>
           </div>
         </div>
