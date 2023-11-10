@@ -8,6 +8,7 @@ const Calculator = () => {
   const [shots, setShots] = useState(0);
   const [admin, setAdmin] = useState(1);
   const [marketer, setMarketer] = useState(0);
+  const [discount, setDiscount] = useState(0);
   var est = price * 1.07;
 
   const changeReels = (e: any) => {
@@ -19,12 +20,12 @@ const Calculator = () => {
   };
 
   const calculatePrice = () => {
-    var shotsPrice = shots * 150000;
-    var reelsPrice = reels * 650000;
+    var shotsPrice = shots * 200000;
+    var reelsPrice = reels * 850000;
     var adminPrice = 0;
 
     if (admin == 1) {
-      adminPrice = 4000000;
+      adminPrice = 4500000;
       setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
     } else if (admin == 2) {
       adminPrice = 3500000;
@@ -38,6 +39,8 @@ const Calculator = () => {
     }
 
     setMarketer(price * 0.07);
+
+    setDiscount(price * 0.85)
   };
 
   return (
@@ -126,15 +129,15 @@ const Calculator = () => {
             <input type="checkbox" name="" id="" checked disabled />
           </form>
           <hr className="my-3" />
-          <p className="my-4 text-center">
+          {/* <p className="my-4 text-center">
             هزینه ها: <br />
             هر شات عکاسی - ۷۵ هزار تومان <br />
-            هر ویدیو - ۱۲۰ هزار تومان <br />
+            هر ویدیو - ۱۲۵ هزار تومان <br />
             ادمین حضوری برای ۳ تا ۴ استوری روزانه - ۲ میلیون تومان
             <br />
             هزینه ادمین تعامل - ۵۰۰ هزار تومان
             <br />
-          </p>
+          </p> */}
           <div className="flex flex-col items-center justify-center">
             <button
               className="border-1 mb-3 rounded-sm border border-blue-500 px-4 py-2 hover:bg-blue-500 hover:text-white"
@@ -149,6 +152,9 @@ const Calculator = () => {
 
             <h1 className="font-bold">
               قیمت بازاریاب: {marketer.toLocaleString()} تومان
+            </h1>
+            <h1 className="font-bold">
+              قیمت با تخفیف: {discount.toLocaleString()} تومان
             </h1>
           </div>
         </div>

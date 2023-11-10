@@ -3,6 +3,7 @@ import "~/styles/globals.css";
 import '../styles/burger.css'
 
 const MyApp: AppType = ({ Component, pageProps }) => {
+  
   return <Component {...pageProps} />;
 };
 
