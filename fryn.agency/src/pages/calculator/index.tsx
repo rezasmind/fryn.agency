@@ -5,11 +5,11 @@ import Header from "~/components/Header";
 const Calculator = () => {
   const [price, setPrice] = useState(0);
   const [reels, setReels] = useState(0);
+  const [teaser, setTeaser] = useState(0);
   const [shots, setShots] = useState(0);
   const [admin, setAdmin] = useState(1);
   const [marketer, setMarketer] = useState(0);
   const [discount, setDiscount] = useState(0);
-  var est = price * 1.07;
 
   const changeReels = (e: any) => {
     setReels(e.target.value);
@@ -19,28 +19,33 @@ const Calculator = () => {
     setShots(e.target.value);
   };
 
+  const changeTeaser = (e: any) => {
+    setTeaser(e.target.value)
+  }
+
   const calculatePrice = () => {
-    var shotsPrice = shots * 200000;
-    var reelsPrice = reels * 850000;
+    var shotsPrice = shots * 500000;
+    var reelsPrice = reels * 3000000;
+    var teaserPrice = teaser * 5000000;
     var adminPrice = 0;
 
     if (admin == 1) {
-      adminPrice = 4500000;
-      setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
+      adminPrice = 7500000;
+      setPrice(950000 + shotsPrice + reelsPrice + adminPrice + teaserPrice);
     } else if (admin == 2) {
       adminPrice = 3500000;
-      setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
+      setPrice(950000 + shotsPrice + reelsPrice + adminPrice + teaserPrice);
     } else if (admin == 3) {
       adminPrice = 2000000;
-      setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
+      setPrice(950000 + shotsPrice + reelsPrice + adminPrice + teaserPrice);
     } else if (admin == 4) {
       adminPrice = 0;
-      setPrice(950000 + shotsPrice + reelsPrice + adminPrice);
+      setPrice(950000 + shotsPrice + reelsPrice + adminPrice + teaserPrice);
     }
 
-    setMarketer(price * 0.07);
+    
 
-    setDiscount(price * 0.85)
+    setDiscount(price * 0.80);
   };
 
   return (
@@ -62,6 +67,20 @@ const Calculator = () => {
               className="  border-b-2 border-blue-500 bg-transparent"
               onChange={changeReels}
               value={reels}
+            />
+          </form>
+          <hr className="my-3" />
+
+          <form action="" className="text-center">
+            <h1 className="mb-3 text-xl"> تیزر </h1>
+            عدد{" "}
+            <input
+              type="number"
+              name=""
+              id="reels"
+              className="  border-b-2 border-blue-500 bg-transparent"
+              onChange={changeTeaser}
+              value={teaser}
             />
           </form>
           <hr className="my-3" />
@@ -147,11 +166,7 @@ const Calculator = () => {
             </button>
 
             <h1 className="font-bold">
-              قیمت نهایی: {est.toLocaleString()} تومان
-            </h1>
-
-            <h1 className="font-bold">
-              قیمت بازاریاب: {marketer.toLocaleString()} تومان
+              قیمت نهایی: {price.toLocaleString()} تومان
             </h1>
             <h1 className="font-bold">
               قیمت با تخفیف: {discount.toLocaleString()} تومان
