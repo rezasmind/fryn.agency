@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
+import Head from "next/head"
 
 const Calculator = () => {
   const [price, setPrice] = useState(0);
@@ -50,6 +51,9 @@ const Calculator = () => {
 
   return (
     <>
+    <Head>
+      <title>فرم محاسبه قیمت</title>
+    </Head>
       <Header />
       <div className="mb-52 flex w-full flex-col items-center justify-center gap-8 font-bodyFont text-white">
         <h1 className="mt-12 text-3xl font-bold text-white">
