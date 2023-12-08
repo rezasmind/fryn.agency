@@ -12,7 +12,7 @@ const Footer = () => {
       <Image src={bar} width={2040} alt="" className=" bg-[#0072ff]" />
       <div className="h-auto bg-[#0072ff]  pt-40 font-bodyFont text-white">
         <div className="title flex flex-col items-center px-10 lg:items-end lg:px-20">
-          <h1 className="text-center text-6xl font-bold lg:text-right lg:text-9xl">
+          <h1 className="text-center text-2xl font-bold lg:text-right lg:text-5xl">
             همین الان شروع کنید.
           </h1>
           <Link
@@ -25,11 +25,6 @@ const Footer = () => {
           </Link>
         </div>
         <div className="flex flex-col items-center justify-end px-7 lg:flex-row lg:items-end lg:p-0">
-          <Image
-            src={speaker}
-            alt=""
-            className=" hidden w-[40vw] -translate-x-40 lg:block lg:w-[60vw]"
-          />
           <div className="call flex flex-col items-center justify-center gap-5 pb-4 lg:flex-row-reverse lg:px-20">
             <Link href={"https://instagram.com/fryn.agency"} className="">
               <BsInstagram size={24} />
@@ -40,7 +35,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-row-reverse">
               <HiOutlineLocationMarker size={24} />
-              <p className="text-xl">مازندران, بابل, گلستان ۱۷</p>
+              <p className="text-xl"> مازندران، ساری، خیابان شیخ طبرسی</p>
             </div>
           </div>
         </div>
