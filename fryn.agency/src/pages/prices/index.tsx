@@ -6,7 +6,7 @@ const Prices = () => {
   return (
     <>
       <Head>
-        <title>تعرفه خدمات تیم فریان</title>
+        <title>تعرفه خدمات | آژانس تبلیغاتی فریان</title>
         <link rel="shortcut icon" href={fav.src} type="image/x-icon" />
       </Head>
       <Header />

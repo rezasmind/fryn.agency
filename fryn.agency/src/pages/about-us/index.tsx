@@ -9,19 +9,20 @@ import lightning from "../../public/lightning.svg";
 import portfolio from "../../public/Portfolio.svg";
 import Footer from "~/components/Footer";
 import { motion } from "framer-motion";
+import fav from "public/New-logo-trans-1.png";
 
 const About = () => {
   return (
     <>
-    <Head>
+      <Head>
         <title>درباره ما | آژانس تبلیغاتی فریان</title>
         <meta name="description" content="FRYN Marketing Agency" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="shortcut icon" href={fav.src} type="image/x-icon" />
       </Head>
       <Header />
       <div className=" flex h-screen flex-col items-center justify-center font-bodyFont text-white">
-        <h1 className="mb-8 lg:text-7xl text-5xl font-bold">استودیو فریان</h1>
-        <p className=" lg:max-w-xl max-w-sm text-center text-xl ">
+        <h1 className="mb-8 text-5xl font-bold lg:text-7xl">استودیو فریان</h1>
+        <p className=" max-w-sm text-center text-xl lg:max-w-xl ">
           آژانس تبلیغاتی فریان محصولی از استودیو فریان است که از سال ۱۳۹۹ فعالیت
           خود رو در زمینه سوشال مدیا مارکتینگ در استان مازندران شروع کرده و تا
           به الان با بیش از ۲۰ کسب و کار همکاری داشته و با استفاده از محتوای
