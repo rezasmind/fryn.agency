@@ -11,6 +11,7 @@ const Calculator = () => {
   const [admin, setAdmin] = useState(1);
   const [marketer, setMarketer] = useState(0);
   const [discount, setDiscount] = useState(0);
+  const [phone, setPhone] = useState(0)
 
   const changeReels = (e: any) => {
     setReels(e.target.value);
@@ -24,24 +25,30 @@ const Calculator = () => {
     setTeaser(e.target.value)
   }
 
+  const changePhone = (e: any) => {
+    setPhone(e.target.value)
+  }
+
+
   const calculatePrice = () => {
-    var shotsPrice = shots * 500000;
-    var reelsPrice = reels * 3000000;
+    var shotsPrice = shots * 450000;
+    var reelsPrice = reels * 2800000;
     var teaserPrice = teaser * 5000000;
+    var phonePrice = phone * 1500000;
     var adminPrice = 0;
 
     if (admin == 1) {
-      adminPrice = 7500000;
-      setPrice(950000 + shotsPrice + reelsPrice + adminPrice + teaserPrice);
+      adminPrice = 5500000;
+      setPrice(1000000 + shotsPrice + reelsPrice + adminPrice + teaserPrice + phonePrice);
     } else if (admin == 2) {
       adminPrice = 3500000;
-      setPrice(950000 + shotsPrice + reelsPrice + adminPrice + teaserPrice);
+      setPrice(1000000 + shotsPrice + reelsPrice + adminPrice + teaserPrice+ phonePrice);
     } else if (admin == 3) {
       adminPrice = 2000000;
-      setPrice(950000 + shotsPrice + reelsPrice + adminPrice + teaserPrice);
+      setPrice(1000000 + shotsPrice + reelsPrice + adminPrice + teaserPrice+ phonePrice);
     } else if (admin == 4) {
       adminPrice = 0;
-      setPrice(950000 + shotsPrice + reelsPrice + adminPrice + teaserPrice);
+      setPrice(1000000 + shotsPrice + reelsPrice + adminPrice + teaserPrice+ phonePrice);
     }
 
     
@@ -61,6 +68,19 @@ const Calculator = () => {
         </h1>
 
         <div className="mx-5 h-auto w-auto bg-white p-12 text-right text-blue-500 md:w-1/3">
+        <form action="" className="text-center">
+            <h1 className="mb-3 text-xl">تولید محتوا ویدیویی ( ریلز با گوشی)</h1>
+            عدد{" "}
+            <input
+              type="number"
+              name=""
+              id="reels"
+              className="  border-b-2 border-blue-500 bg-transparent"
+              onChange={changePhone}
+              value={phone}
+            />
+          </form>
+          <hr className="my-3" />
           <form action="" className="text-center">
             <h1 className="mb-3 text-xl">تولید محتوا ویدیویی (ریلز)</h1>
             عدد{" "}

@@ -16,6 +16,9 @@ import nazanin from 'public/nazanin.png'
 import ashkan from 'public/ashkan.png'
 import aryan from 'public/aryan.png'
 import bg from 'public/bg.png'
+import ali from 'public/Ali2.png'
+import behnam from 'public/Behnam.png'
+import mehdi from 'public/Mehdi.png'
 
 const Team = () => {
   return (
@@ -36,9 +39,11 @@ const Team = () => {
       <div className=" h-auto py-44 member flex lg:gap-52 flex-col lg:flex-row px-10 flex-wrap justify-center items-center bg-white">
         <Card img={reza} name="رضا آقاجانی" role="بنیان گذار فریان"/>
         <Card img={mmd} name="امیر محمد سپاهی" role="مدیر خلاقیت و متخصص بازاریابی محتوایی" />
-        <Card img={nazanin} name="نازنین حسینی" role="مدیر خلاقیت و تولید کننده محتوا"/>
-        <Card img={ashkan} name="اشکان محمد نژاد" role="طراحی سایت و موشن گرافیست"/>
-        <Card img={aryan} name="آرین زارع" role="طراح سایت اختصاصی"/>
+        <Card img={ali} name="علی جنگلبان" role="مسئول بازاریابی و مدیر منابع انسانی" />
+        <Card img={behnam} name="بهنام قوی پنجه" role="مدیر مارکتینگ" />
+        <Card img={mehdi} name=" مهدی خدادی" role="تصویر بردار"/>
+        <Card img={ashkan} name="اشکان محمد نژاد" role=" تدوینگر و موشن گرافیست"/>
+        
       </div>
 
       <Footer />
