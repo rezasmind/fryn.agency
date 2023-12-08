@@ -14,7 +14,7 @@ const Prices = () => {
         تعرفه خدمات تیم فریان
       </h1>
       <div className="main flex justify-center items-center w-full ">
-      <div className="tables rtl mb-48 flex h-2/4 sm:flex-row-reverse flex-col-reverse justify-center sm:items-start items-center  gap-5 font-bodyFont">
+      <div className="tables rtl mb-48 flex h-2/4 sm:flex-row-reverse flex-col justify-center sm:items-start items-center  gap-5 font-bodyFont">
         <div className="table1 border-black-50 flex sm:w-1/3 w-4/5  flex-col items-center sm:h-2/3 h-1/2 justify-center rounded-lg border-2 bg-white p-10">
           <div className="title flex w-full flex-col mb-4">
             <h1 className="text-blue-500 font-bold"> به صرفه</h1>
