@@ -13,8 +13,9 @@ const Prices = () => {
       <h1 className="my-8 text-center font-bodyFont text-2xl font-extrabold text-white">
         تعرفه خدمات تیم فریان
       </h1>
-      <div className="tables rtl mb-48 flex h-2/4 flex-row-reverse justify-center  gap-5 font-bodyFont">
-        <div className="table1 border-black-50 flex w-1/6 flex-col items-center h-2/3 justify-center rounded-lg border-2 bg-white p-10">
+      <div className="main flex justify-center items-center w-full ">
+      <div className="tables rtl mb-48 flex h-2/4 sm:flex-row-reverse flex-col-reverse justify-center sm:items-start items-center  gap-5 font-bodyFont">
+        <div className="table1 border-black-50 flex sm:w-1/3 w-4/5  flex-col items-center sm:h-2/3 h-1/2 justify-center rounded-lg border-2 bg-white p-10">
           <div className="title flex w-full flex-col mb-4">
             <h1 className="text-blue-500 font-bold"> به صرفه</h1>
             <p className="text-lg line-through">۱۶،۵۰۰،۰۰۰ تومان</p>
@@ -33,7 +34,7 @@ const Prices = () => {
           </button>
         </div>
 
-        <div className="table1 border-black-50 flex w-1/6 h-3/4 flex-col items-center justify-center rounded-lg border-2 bg-transparent p-10 text-white">
+        <div className="table1 border-black-50 flex  sm:w-1/3 w-4/5 h-4/5 flex-col items-center justify-center rounded-lg border-2 bg-transparent p-10 text-white">
           <div className="title flex w-full flex-col mb-4">
             <h1 className="text-white font-bold"> حرفه ای</h1>
             <p className="text-lg line-through">۳۰،۲۰۰،۰۰۰ تومان</p>
@@ -54,7 +55,7 @@ const Prices = () => {
           </button>
         </div>
 
-        <div className="table1 border-black-50 flex w-1/6 h-4/4 flex-col items-center  justify-center rounded-lg border-2 bg-white p-10">
+        <div className="table1 border-black-50 flex sm:w-1/3 w-4/5 h-4/4 flex-col items-center  justify-center rounded-lg border-2 bg-white p-10">
           <div className="title flex w-full flex-col mb-4">
             <h1 className="text-blue-500 font-bold"> VIP </h1>
             <p className="text-lg line-through">۴۲،۴۰۰،۰۰۰ تومان</p>
@@ -75,6 +76,7 @@ const Prices = () => {
             تماس با ما
           </button>
         </div>
+      </div>
       </div>
 
       <Footer />
