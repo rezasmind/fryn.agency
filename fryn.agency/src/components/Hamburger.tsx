@@ -4,9 +4,9 @@ const HamburgerMenu = () => (
   <div className="relative p-2 font-bodyFont">
     <Menu
       customBurgerIcon={<HamburgerIcon />}
-      width={ '50%' }
+      width={"50%"}
       noOverlay
-      className="left-0 top-12"
+      className="left-0"
     >
       <Links />
     </Menu>
@@ -31,9 +31,13 @@ const HamburgerIcon = () => (
 
 export const Links = () => (
   <>
-    <Link href={"/about-us"}>درباره ما</Link>
-    <Link href={"/about-us"}>تیم فریان</Link>
-    <Link href={"/contact-us"}>تماس با ما</Link>
+    <div className="text-blue-500 w-full flex flex-col gap-5">
+      <Link href={"/"} className="w-full">صفحه اصلی</Link>
+      <Link href={"/prices"}> تعرفه خدمات</Link>
+      <Link href={"/team"}>تیم فریان</Link>
+      <Link href={"/about-us"}>درباره ما</Link>
+      <Link href={"https://t.me/Frynads"}>تماس با ما</Link>
+    </div>
   </>
 );
 

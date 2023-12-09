@@ -18,7 +18,6 @@ const Header = () => {
           <Link href={"/"} className="">
             <Image src={logo} width={75} alt="" className="rounded-full pr-8" />
           </Link>
-
           <HamburgerMenu />
         </div>
         <header className="rtl hidden h-20 w-screen flex-row-reverse items-center gap-12 bg-[#0072ff]  font-bodyFont text-lg text-white md:flex">
