@@ -13,7 +13,7 @@ const Header = () => {
       <meta name="description" content="آژانس تبلیغاتی فریان " key="desc" />
         <meta property="og:title" content="آژانس تبلیغاتی فریان" />
       </Head>
-      <div className="mt-5 flex flex-row items-center justify-center ">
+      <div className=" flex flex-row items-center justify-center ">
         <div className="flex w-screen flex-row-reverse justify-between md:hidden">
           <Link href={"/"} className="">
             <Image src={logo} width={75} alt="" className="rounded-full pr-8" />
