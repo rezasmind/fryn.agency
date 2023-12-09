@@ -13,7 +13,7 @@ const Calculator = () => {
   const [reels, setReels] = useState(0);
   const [teaser, setTeaser] = useState(0);
   const [shots, setShots] = useState(0);
-  const [admin, setAdmin] = useState(4);
+  const [admin, setAdmin] = useState("4");
   const [marketer, setMarketer] = useState(0);
   const [discount, setDiscount] = useState(0);
   const [phone, setPhone] = useState(0);
@@ -41,7 +41,7 @@ const Calculator = () => {
     var phonePrice = phone * 1500000;
     var adminPrice = 0;
 
-    if (admin == 1) {
+    if (admin == "1") {
       adminPrice = 5500000;
       setPrice(
         1000000 +
@@ -51,7 +51,7 @@ const Calculator = () => {
           teaserPrice +
           phonePrice
       );
-    } else if (admin == 2) {
+    } else if (admin == "2") {
       adminPrice = 3500000;
       setPrice(
         1000000 +
@@ -61,7 +61,7 @@ const Calculator = () => {
           teaserPrice +
           phonePrice
       );
-    } else if (admin == 3) {
+    } else if (admin == "3") {
       adminPrice = 2000000;
       setPrice(
         1000000 +
@@ -71,7 +71,7 @@ const Calculator = () => {
           teaserPrice +
           phonePrice
       );
-    } else if (admin == 4) {
+    } else if (admin == "4") {
       adminPrice = 0;
       setPrice(
         1000000 +
@@ -93,7 +93,7 @@ const Calculator = () => {
       </Head>
       <Header />
       <div className="mb-52 flex w-full flex-col items-center justify-center gap-8 font-bodyFont text-white">
-        <h1 className="mt-12 sm:text-3xl text-2xl font-bold text-white">
+        <h1 className="mt-12 text-2xl font-bold text-white sm:text-3xl">
           فرم محاسبه قیمت خدمات فریان
         </h1>
 
