@@ -43,7 +43,7 @@ const Header = () => {
       </Head>
       <>
         <Navbar
-          className="bg-transparent font-bodyFont text-white"
+          className="bg-[#0072ff] font-bodyFont text-white"
           onMenuOpenChange={setIsMenuOpen}
         >
           <NavbarContent>
