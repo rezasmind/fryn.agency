@@ -93,7 +93,7 @@ const Calculator = () => {
       </Head>
       <Header />
       <div className="mb-52 flex w-full flex-col items-center justify-center gap-8 font-bodyFont text-white">
-        <h1 className="mt-12 text-3xl font-bold text-white">
+        <h1 className="mt-12 sm:text-3xl text-2xl font-bold text-white">
           فرم محاسبه قیمت خدمات فریان
         </h1>
 
