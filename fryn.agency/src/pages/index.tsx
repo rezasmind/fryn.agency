@@ -162,7 +162,7 @@ export default function Home() {
               <Image
                 removeWrapper
                 alt="Relaxing app background"
-                className="z-0 h-full w-full object-cover brightness-75"
+                className="z-0 h-full w-full object-cover brightness-75 scale-100 hover:transition-all hover:scale-110 transition ease-in-out duration-500"
                 src={portfolio.src}
               />
               <CardFooter className="absolute bottom-0 z-10 border-t-1 border-default-600 bg-black/40 dark:border-default-100">
@@ -205,7 +205,7 @@ export default function Home() {
               <Image
                 removeWrapper
                 alt="Relaxing app background"
-                className="z-0 h-full w-full object-cover brightness-75"
+                className="z-0 h-full w-full object-cover brightness-75 scale-100 hover:transition-all hover:scale-110 transition ease-in-out duration-500"
                 src={portfolio2.src}
               />
               <CardFooter className="absolute bottom-0 z-10 border-t-1 border-default-600 bg-black/40 dark:border-default-100">
@@ -247,7 +247,7 @@ export default function Home() {
               <Image
                 removeWrapper
                 alt="Relaxing app background"
-                className="z-0 h-full w-full object-cover brightness-75"
+                className="z-0 h-full w-full object-cover brightness-75 scale-100 hover:transition-all hover:scale-110 transition ease-in-out duration-500"
                 src={portfolio3.src}
               />
               <CardFooter className="absolute bottom-0 z-10 border-t-1 border-default-600 bg-black/40 dark:border-default-100">
@@ -290,7 +290,7 @@ export default function Home() {
               <Image
                 removeWrapper
                 alt="Relaxing app background"
-                className="z-0 h-full w-full object-cover brightness-75"
+                className="z-0 h-full w-full object-cover brightness-75 scale-100 hover:transition-all hover:scale-110 transition ease-in-out duration-500"
                 src={portfolio4.src}
               />
               <CardFooter className="absolute bottom-0 z-10 border-t-1 border-default-600 bg-black/40 dark:border-default-100">
@@ -332,7 +332,7 @@ export default function Home() {
               <Image
                 removeWrapper
                 alt="Relaxing app background"
-                className="z-0 h-full w-full object-cover brightness-75"
+                className="z-0 h-full w-full object-cover brightness-75 scale-100 hover:transition-all hover:scale-110 transition ease-in-out duration-500"
                 src={portfolio5.src}
               />
               <CardFooter className="absolute bottom-0 z-10 border-t-1 border-default-600 bg-black/40 dark:border-default-100">
@@ -374,7 +374,7 @@ export default function Home() {
               <Image
                 removeWrapper
                 alt="Relaxing app background"
-                className="z-0 h-full w-full object-cover brightness-75"
+                className="z-0 h-full w-full object-cover brightness-75 scale-100 hover:transition-all hover:scale-110 ease-in-out duration-500"
                 src={portfolio6.src}
               />
               <CardFooter className="absolute bottom-0 z-10 border-t-1 border-default-600 bg-black/40 dark:border-default-100">
@@ -395,7 +395,7 @@ export default function Home() {
                     href={"https://www.instagram.com/p/C0jphpGtXU8/"}
                     target="_blank"
                   >
-                    تماشای ویدیو
+                    تماشای ریل
                   </Link>
                 </Button>
               </CardFooter>
