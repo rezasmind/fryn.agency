@@ -180,19 +180,13 @@ export default function Home() {
                     <p className="text-tiny text-white/60">ویو ۱۴ هزار</p>
                   </div>
                 </div>
-                <Button
-                  radius="full"
-                  size="sm"
-                  onClick={() => {
-                    window
-                      .open(
-                        "https://www.instagram.com/p/Cz1kDPIN9CF/",
-                        "_blank"
-                      )
-                      .focus();
-                  }}
-                >
-                  تماشای ویدیو
+                <Button radius="full" size="sm">
+                  <Link
+                    href={"https://www.instagram.com/p/Cz1kDPIN9CF/"}
+                    target="_blank"
+                  >
+                    تماشای ریل
+                  </Link>
                 </Button>
               </CardFooter>
             </Card>
@@ -229,19 +223,13 @@ export default function Home() {
                     <p className="text-tiny text-white/60">ویو ۱۴ هزار</p>
                   </div>
                 </div>
-                <Button
-                  radius="full"
-                  size="sm"
-                  onClick={() => {
-                    window
-                      .open(
-                        "https://www.instagram.com/p/C0W7fhXNRyD/",
-                        "_blank"
-                      )
-                      .focus();
-                  }}
-                >
-                  تماشای ویدیو
+                <Button radius="full" size="sm">
+                  <Link
+                    href={"https://www.instagram.com/p/C0W7fhXNRyD/"}
+                    target="_blank"
+                  >
+                    تماشای ریل
+                  </Link>
                 </Button>
               </CardFooter>
             </Card>
@@ -277,19 +265,13 @@ export default function Home() {
                     <p className="text-tiny text-white/60">ویو ۱۴ هزار</p>
                   </div>
                 </div>
-                <Button
-                  radius="full"
-                  size="sm"
-                  onClick={() => {
-                    window
-                      .open(
-                        "https://www.instagram.com/p/Cz6sMS4Ntmg/",
-                        "_blank"
-                      )
-                      .focus();
-                  }}
-                >
-                  تماشای ویدیو
+                <Button radius="full" size="sm">
+                  <Link
+                    href={"https://www.instagram.com/p/Cz6sMS4Ntmg/"}
+                    target="_blank"
+                  >
+                    تماشای ریل
+                  </Link>
                 </Button>
               </CardFooter>
             </Card>
@@ -325,19 +307,13 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <Button
-                  radius="full"
-                  size="sm"
-                  onClick={() => {
-                    window
-                      .open(
-                        "https://www.instagram.com/p/CzhAUFZN9Xg/",
-                        "_blank"
-                      )
-                      .focus();
-                  }}
-                >
-                  تماشای پست
+                <Button radius="full" size="sm">
+                  <Link
+                    href={"https://www.instagram.com/p/CzhAUFZN9Xg/"}
+                    target="_blank"
+                  >
+                    تماشای پست
+                  </Link>
                 </Button>
               </CardFooter>
             </Card>
@@ -373,19 +349,13 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <Button
-                  radius="full"
-                  size="sm"
-                  onClick={() => {
-                    window
-                      .open(
-                        "https://www.instagram.com/p/Cz9SYxFN46U/",
-                        "_blank"
-                      )
-                      .focus();
-                  }}
-                >
-                  تماشای پست
+                <Button radius="full" size="sm">
+                  <Link
+                    href={"https://www.instagram.com/p/Cz9SYxFN46U/"}
+                    target="_blank"
+                  >
+                    تماشای پست
+                  </Link>
                 </Button>
               </CardFooter>
             </Card>
@@ -421,19 +391,13 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <Button
-                  radius="full"
-                  size="sm"
-                  onClick={() => {
-                    window
-                      .open(
-                        "https://www.instagram.com/p/C0jphpGtXU8/",
-                        "_blank"
-                      )
-                      .focus();
-                  }}
-                >
-                  تماشای ویدیو
+                <Button radius="full" size="sm">
+                  <Link
+                    href={"https://www.instagram.com/p/C0jphpGtXU8/"}
+                    target="_blank"
+                  >
+                    تماشای ویدیو
+                  </Link>
                 </Button>
               </CardFooter>
             </Card>
