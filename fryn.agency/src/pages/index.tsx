@@ -53,9 +53,8 @@ export default function Home() {
           </motion.span>
         </div>
         <Image
-          src={character}
+          src={character.src}
           width={2040}
-          quality={100}
           alt=""
           className="-translate-y-[8vh] md:-translate-y-[10vh] lg:-translate-y-[20vh] xl:-translate-y-[24vh]"
         />
@@ -84,29 +83,29 @@ export default function Home() {
         >
           <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 delay-75 ease-in transition-all hover:bg-[#0072ff] hover:text-white ">
             <h1 className="text-2xl font-bold lg:text-3xl">برندینگ</h1>
-            <Image src={circle} width={50} alt="" />
+            <Image src={circle.src} width={50} alt="" />
           </div>
 
           <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 delay-75 ease-in transition-all hover:bg-[#0072ff] hover:text-white">
             <h1 className="text-2xl font-bold lg:text-3xl">تبلیغات</h1>
-            <Image src={circle} width={50} alt="" />
+            <Image src={circle.src} width={50} alt="" />
           </div>
 
           <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 delay-75 ease-in transition-all hover:bg-[#0072ff] hover:text-white">
             <h1 className="text-2xl font-bold lg:text-3xl">تولید محتوا</h1>
-            <Image src={circle} width={50} alt="" />
+            <Image src={circle.src} width={50} alt="" />
           </div>
 
           <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 delay-75 ease-in transition-all hover:bg-[#0072ff] hover:text-white">
             <h1 className="text-2xl font-bold lg:text-3xl">
               اینستاگرام مارکتینگ
             </h1>
-            <Image src={circle} width={50} alt="" />
+            <Image src={circle.src} width={50} alt="" />
           </div>
 
           <div className="service flex h-24 cursor-pointer flex-row-reverse items-center justify-between rounded-full bg-white p-10 delay-75 ease-in transition-all hover:bg-[#0072ff] hover:text-white">
             <h1 className="text-2xl font-bold lg:text-3xl">طراحی سایت</h1>
-            <Image src={circle} width={50} alt="" />
+            <Image src={circle.src} width={50} alt="" />
           </div>
         </motion.div>
       </motion.div>
