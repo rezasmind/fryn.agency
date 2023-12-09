@@ -219,7 +219,7 @@ export default function Home() {
                     <p className="w-full text-tiny text-white/60">
                       نمونه کار ریلز
                     </p>
-                    <p className="text-tiny text-white/60">ویو ۱۴ هزار</p>
+                    <p className="text-tiny text-white/60"></p>
                   </div>
                 </div>
                 <Button radius="full" size="sm">
@@ -261,7 +261,7 @@ export default function Home() {
                     <p className="w-full text-tiny text-white/60">
                       نمونه کار ریلز
                     </p>
-                    <p className="text-tiny text-white/60">ویو ۱۴ هزار</p>
+
                   </div>
                 </div>
                 <Button radius="full" size="sm">
