@@ -31,8 +31,10 @@ const HamburgerIcon = () => (
 
 export const Links = () => (
   <>
-    <div className="text-blue-500 w-full flex flex-col gap-5">
-      <Link href={"/"} className="w-full">صفحه اصلی</Link>
+    <div className="flex w-full flex-col gap-5 text-blue-500">
+      <Link href={"/"} className="w-full">
+        صفحه اصلی
+      </Link>
       <Link href={"/prices"}> تعرفه خدمات</Link>
       <Link href={"/team"}>تیم فریان</Link>
       <Link href={"/about-us"}>درباره ما</Link>

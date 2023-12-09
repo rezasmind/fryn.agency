@@ -32,7 +32,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <div className="h-[42vh] w-full bg-[#0072ff] sm:h-[33vh] md:h-[48vh] lg:h-[85vh] xl:h-[90vh]">
+      <div className="h-[33vh] w-full bg-[#0072ff] sm:h-[33vh] md:h-[48vh] lg:h-[85vh] xl:h-[90vh]">
         <div className="title relative flex flex-col items-center pt-28 font-bodyFont font-bold text-white lg:pt-44">
           <motion.span
             initial={{ opacity: 0, scale: 0.5 }}
