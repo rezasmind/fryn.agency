@@ -155,7 +155,7 @@ const Calculator = () => {
             className="flex w-full flex-row-reverse items-center justify-center gap-3"
           >
             <RadioGroup
-              value="4"
+              value={admin}
               onValueChange={setAdmin}
               orientation="horizontal"
             >
