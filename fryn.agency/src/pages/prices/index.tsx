@@ -2,6 +2,10 @@ import Head from "next/head";
 import Header from "~/components/Header";
 import fav from "../../../public/New-logo-trans-1.png";
 import Footer from "~/components/Footer";
+import {Chip} from "@nextui-org/react";
+import {Button} from "@nextui-org/react";
+
+
 const Prices = () => {
   return (
     <>
@@ -16,8 +20,8 @@ const Prices = () => {
       <div className="main flex justify-center items-center w-full ">
       <div className="tables rtl mb-48 flex h-2/4 sm:flex-row-reverse flex-col justify-center sm:items-start items-center  gap-5 font-bodyFont">
         <div className="table1 border-black-50 flex sm:w-1/3 w-4/5  flex-col items-center sm:h-2/3 h-1/2 justify-center rounded-lg border-2 bg-white p-10">
-          <div className="title flex w-full flex-col mb-4">
-            <h1 className="text-blue-500 font-bold"> به صرفه</h1>
+          <div className="title flex w-full flex-col mb-4 items-end">
+            <Chip className=" font-bold mb-3" color="primary"> به صرفه</Chip>
             <p className="text-lg line-through">۱۶،۵۰۰،۰۰۰ تومان</p>
             <p className="text-2xl font-bold">۹،۵۰۰،۰۰۰ تومان</p>
           </div>
@@ -29,14 +33,14 @@ const Prices = () => {
             <li className="rtl"> تعیین استراتژی و پلن محتوایی</li>
           </ul>
           <p className="font-bodyFont text-lg font-bold">سود شما: ۷،۰۰۰،۰۰۰ تومان</p>
-          <button className="mt-3 border-2 border-black-500 text-lg bg-blue-500 w-full py-3 rounded-lg text-white">
+          <Button className=" text-white px-20 mt-3" color="primary" size="lg" variant="shadow">
             تماس با ما
-          </button>
+          </Button>
         </div>
 
         <div className="table1 border-black-50 flex  sm:w-1/3 w-4/5 h-4/5 flex-col items-center justify-center rounded-lg border-2 bg-transparent p-10 text-white">
-          <div className="title flex w-full flex-col mb-4">
-            <h1 className="text-white font-bold"> حرفه ای</h1>
+          <div className="title flex w-full flex-col mb-4 items-end" >
+          <Chip className=" font-bold bg-white mb-3" >  حرفه ای</Chip>
             <p className="text-lg line-through">۳۰،۲۰۰،۰۰۰ تومان</p>
             <p className="text-2xl font-bold">۱۸،۵۰۰،۰۰۰ تومان</p>
           </div>
@@ -50,14 +54,14 @@ const Prices = () => {
             <li className="rtl"> تعیین استراتژی و پلن محتوایی</li>
           </ul>
           <p className="font-bodyFont text-lg font-bold">سود شما: ۱۱،۷۰۰،۰۰۰ تومان</p>
-          <button className="mt-3 border-2 border-black-500 text-lg bg-blue-500 w-full py-3 rounded-lg text-white">
+          <Button className=" text-blue-600 px-20 mt-3 bg-white"  size="lg" variant="shadow">
             تماس با ما
-          </button>
+          </Button>
         </div>
 
         <div className="table1 border-black-50 flex sm:w-1/3 w-4/5 h-4/4 flex-col items-center  justify-center rounded-lg border-2 bg-white p-10">
-          <div className="title flex w-full flex-col mb-4">
-            <h1 className="text-blue-500 font-bold"> VIP </h1>
+          <div className="title flex w-full flex-col mb-4 items-end">
+          <Chip className=" font-bold mb-3" color="primary">VIP</Chip>
             <p className="text-lg line-through">۴۲،۴۰۰،۰۰۰ تومان</p>
             <p className="text-2xl font-bold">۲۸،۵۰۰،۰۰۰ تومان</p>
           </div>
@@ -72,9 +76,9 @@ const Prices = () => {
             <li className="rtl"> تعیین استراتژی و پلن محتوایی</li>
           </ul>
           <p className="font-bodyFont text-lg font-bold">سود شما: ۱۳،۹۰۰،۰۰۰ تومان</p>
-          <button className="mt-3 border-2 border-black-500 text-lg bg-blue-500 w-full py-3 rounded-lg text-white">
+          <Button className=" text-white px-20 mt-3" color="primary" size="lg" variant="shadow">
             تماس با ما
-          </button>
+          </Button>
         </div>
       </div>
       </div>
