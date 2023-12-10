@@ -4,6 +4,8 @@ import fav from "../../../public/New-logo-trans-1.png";
 import Footer from "~/components/Footer";
 import {Chip} from "@nextui-org/react";
 import {Button} from "@nextui-org/react";
+import {Snippet} from "@nextui-org/react";
+
 
 
 const Prices = () => {
@@ -54,7 +56,7 @@ const Prices = () => {
             <li className="rtl"> تعیین استراتژی و پلن محتوایی</li>
           </ul>
           <p className="font-bodyFont text-lg font-bold">سود شما: ۱۱،۷۰۰،۰۰۰ تومان</p>
-          <Button className=" text-blue-600 px-20 mt-3 bg-white"  size="lg" variant="shadow">
+          <Button className=" text-blue-600 px-20 mt-3 bg-white font-bodyFont"  size="lg" variant="shadow">
             تماس با ما
           </Button>
         </div>
