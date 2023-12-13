@@ -44,15 +44,16 @@ const Prices = () => {
           <div className="title flex w-full flex-col mb-4 items-end" >
           <Chip className=" font-bold bg-white mb-3" >  حرفه ای</Chip>
             <p className="text-lg line-through">۳۰،۲۰۰،۰۰۰ تومان</p>
-            <p className="text-2xl font-bold">۱۸،۵۰۰،۰۰۰ تومان</p>
+            <p className="text-2xl font-bold">۱۴،۵۰۰،۰۰۰  تومان</p>
           </div>
 
           <ul className="flex w-full flex-col items-end justify-center gap-4 text-md font-medium mb-4">
-            <li className="rtl">۲ ریلز با گوشی</li>
-            <li className="rtl">۴ ریلز با دوربین</li>
-            <li className="rtl">۶ شات عکاسی با دوربین</li>
+            
+            <li className="rtl">۶ ریلز با دوربین</li>
+            <li className="rtl">۴ شات عکاسی با دوربین</li>
             <li className="rtl">ادمین حضوری برای استوری</li>
-            <li className="rtl"> تبلیغات منطقه ای <span className="text-white">(رایگان!)</span></li>
+            <li className="rtl">ادمین تعامل</li>
+           
             <li className="rtl"> تعیین استراتژی و پلن محتوایی</li>
           </ul>
           <p className="font-bodyFont text-lg font-bold">سود شما: ۱۱،۷۰۰،۰۰۰ تومان</p>
@@ -69,12 +70,13 @@ const Prices = () => {
           </div>
 
           <ul className="flex w-full flex-col items-end justify-center gap-4 text-md font-medium mb-4">
-            <li className="rtl">۴ ریلز با دوربین</li>
+            <li className="rtl">۸ ریلز با دوربین</li>
             <li className="rtl">۲ تیزر تبلیغاتی با تجهیزات کامل</li>
-            <li className="rtl">۶ شات عکاسی با دوربین</li>
+            <li className="rtl">۵ شات عکاسی با دوربین</li>
             <li className="rtl text-right">۴ طراحی گرافیک مربوط به برند (طراحی لوگو ، پکیج بیرون بر و...) </li>
             <li className="rtl">ادمین حضوری برای استوری</li>
-            <li className="rtl"> تبلیغات منطقه ای <span className="text-[#085bff]">(رایگان!)</span></li>
+            <li className="rtl">ادمین تعامل</li>
+            <li className="rtl"> تبلیغات گسترده <span className="text-[#085bff]">(رایگان!)</span></li>
             <li className="rtl"> تعیین استراتژی و پلن محتوایی</li>
           </ul>
           <p className="font-bodyFont text-lg font-bold">سود شما: ۱۳،۹۰۰،۰۰۰ تومان</p>

@@ -10,9 +10,6 @@ export default {
       fontFamily: {
         'bodyFont' :['Peyda', 'cursive'],
       },
-      backgroundImage: {
-        'first-bg': "url('/public/bg.png/')"
-      }
     },
   },
   darkMode: "class",
