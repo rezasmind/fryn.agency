@@ -49,7 +49,7 @@ const Prices = () => {
 
           <ul className="flex w-full flex-col items-end justify-center gap-4 text-md font-medium mb-4">
             
-            <li className="rtl">۶ ریلز با دوربین</li>
+            <li className="rtl">۸ ریلز با دوربین</li>
             <li className="rtl">۴ شات عکاسی با دوربین</li>
             <li className="rtl">ادمین حضوری برای استوری</li>
             <li className="rtl">ادمین تعامل</li>
