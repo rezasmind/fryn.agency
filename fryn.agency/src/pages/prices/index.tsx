@@ -56,7 +56,7 @@ const Prices = () => {
            
             <li className="rtl"> تعیین استراتژی و پلن محتوایی</li>
           </ul>
-          <p className="font-bodyFont text-lg font-bold">سود شما: ۱۱،۷۰۰،۰۰۰ تومان</p>
+          <p className="font-bodyFont text-lg font-bold">سود شما: ۱۵،۷۰۰،۰۰۰ تومان</p>
           <Button className=" text-blue-600 px-20 mt-3 bg-white font-bodyFont"  size="lg" variant="shadow">
             تماس با ما
           </Button>
