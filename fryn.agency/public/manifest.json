@@ -1,6 +1,6 @@
 {
-    "name": "My awesome PWA app",
-    "short_name": "PWA App",
+    "name": "FRYN Agency Website",
+    "short_name": "FRYN Agency | أژانس تبلیغاتی فریان",
     "icons": [
       {
         "src": "/icons/android-chrome-192x192.png",
