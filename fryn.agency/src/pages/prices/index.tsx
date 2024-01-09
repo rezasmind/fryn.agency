@@ -44,7 +44,7 @@ const Prices = () => {
           <div className="title flex w-full flex-col mb-4 items-end" >
           <Chip className=" font-bold bg-white mb-3" >  حرفه ای</Chip>
             <p className="text-lg line-through">۳۰،۲۰۰،۰۰۰ تومان</p>
-            <p className="text-2xl font-bold">۲۰،۵۰۰،۰۰۰  تومان</p>
+            <p className="text-2xl font-bold">۱۸،۵۰۰،۰۰۰  تومان</p>
           </div>
 
           <ul className="flex w-full flex-col items-end justify-center gap-4 text-md font-medium mb-4">
@@ -56,7 +56,7 @@ const Prices = () => {
            
             <li className="rtl"> تعیین استراتژی و پلن محتوایی</li>
           </ul>
-          <p className="font-bodyFont text-lg font-bold">سود شما: ۹،۷۰۰،۰۰۰ تومان</p>
+          <p className="font-bodyFont text-lg font-bold">سود شما: ۱۱،۷۰۰،۰۰۰ تومان</p>
           <Button className=" text-blue-600 px-20 mt-3 bg-white font-bodyFont"  size="lg" variant="shadow">
             تماس با ما
           </Button>
@@ -66,7 +66,7 @@ const Prices = () => {
           <div className="title flex w-full flex-col mb-4 items-end">
           <Chip className=" font-bold mb-3" color="primary">VIP</Chip>
             <p className="text-lg line-through">۴۲،۴۰۰،۰۰۰ تومان</p>
-            <p className="text-2xl font-bold">۳۴،۵۰۰،۰۰۰ تومان</p>
+            <p className="text-2xl font-bold">۲۸،۵۰۰،۰۰۰ تومان</p>
           </div>
 
           <ul className="flex w-full flex-col items-end justify-center gap-4 text-md font-medium mb-4">
@@ -79,7 +79,7 @@ const Prices = () => {
             <li className="rtl"> تبلیغات گسترده <span className="text-[#085bff]">(رایگان!)</span></li>
             <li className="rtl"> تعیین استراتژی و پلن محتوایی</li>
           </ul>
-          <p className="font-bodyFont text-lg font-bold">سود شما: ۷،۹۰۰،۰۰۰ تومان</p>
+          <p className="font-bodyFont text-lg font-bold">سود شما: ۱۳،۹۰۰،۰۰۰ تومان</p>
           <Button className=" text-white px-20 mt-3" color="primary" size="lg" variant="shadow">
             تماس با ما
           </Button>
