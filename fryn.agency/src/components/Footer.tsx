@@ -38,7 +38,7 @@ const Footer = () => {
             <Link
               referrerPolicy="origin"
               target="_blank"
-              href="https://trustseal.enamad.ir/?id=459516&Code=SA5Ee0i345SF5YwVlzVRROdyd4y58b6Y"
+              href="https://trustseal.enamad.ir/?id=459608&Code=cOUaU4aabcyl8qEX5ZUmCGuC5oltwIGm"
             >
               <Image src={enamad} alt="" width={75} height={75} />
             </Link>
