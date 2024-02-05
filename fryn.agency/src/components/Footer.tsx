@@ -5,6 +5,7 @@ import Link from "next/link";
 import { BsInstagram } from "react-icons/bs";
 import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import enamad from "public/30.png"
 
 const Footer = () => {
   return (
@@ -15,11 +16,8 @@ const Footer = () => {
           <h1 className="text-center text-2xl font-bold lg:text-right lg:text-5xl">
             همین الان شروع کنید.
           </h1>
-          <Link
-            href={"/contact-us"}
-            className=" "
-          >
-            <p className="mb-10 mt-10 transition-all delay-75 ease-in inline-block rounded-full bg-white  px-10 py-4 text-xl font-bold text-[#0072ff] lg:text-3xl hover:bg-[#0072ff]  hover:text-white hover:border-white hover:border">
+          <Link href={"/contact-us"} className=" ">
+            <p className="mb-10 mt-10 inline-block rounded-full bg-white px-10 py-4 text-xl  font-bold text-[#0072ff] delay-75 ease-in transition-all hover:border hover:border-white  hover:bg-[#0072ff] hover:text-white lg:text-3xl">
               تماس با ما
             </p>
           </Link>
@@ -37,6 +35,13 @@ const Footer = () => {
               <HiOutlineLocationMarker size={24} />
               <p className="text-xl"> مازندران، ساری، خیابان شیخ طبرسی</p>
             </div>
+            <Link
+              referrerPolicy="origin"
+              target="_blank"
+              href="https://trustseal.enamad.ir/?id=459516&Code=SA5Ee0i345SF5YwVlzVRROdyd4y58b6Y"
+            >
+              <Image src={enamad} alt="" width={75} height={75} />
+            </Link>
           </div>
         </div>
       </div>
