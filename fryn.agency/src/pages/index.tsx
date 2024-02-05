@@ -30,7 +30,7 @@ export default function Home() {
         <title>آژانس تبلیغاتی فریان </title>
         <meta name="description" content="FRYN Marketing Agency" />
         <link rel="icon" href="/favicon.png" />
-        <meta name="enamad" content="344839" />
+        <meta name="enamad" content="644151" />
       </Head>
       <Header />
       <div className="h-[33vh] w-full bg-[#0072ff] sm:h-[33vh] md:h-[48vh] lg:h-[85vh] xl:h-[90vh]">

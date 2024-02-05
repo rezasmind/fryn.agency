@@ -19,6 +19,7 @@
     "react-burger-menu": "^3.0.9",
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
+    "zarinpal-checkout": "^0.2.7",
     "zod": "^3.21.4"
   },
   "devDependencies": {
