@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>آژانس تبلیغاتی فریان</title>
+        <title>آژانس تبلیغاتی فریان 344839</title>
         <meta name="description" content="FRYN Marketing Agency" />
         <link rel="icon" href="/favicon.png" />
       </Head>
