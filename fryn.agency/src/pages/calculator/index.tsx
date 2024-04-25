@@ -44,40 +44,16 @@ const Calculator = () => {
     if (admin == "1") {
       adminPrice = 2000000;
 
-      setPrice(
-        1500000 +
-          ((shotsPrice + reelsPrice + adminPrice + teaserPrice + phonePrice) /
-            35) *
-            100
-      );
+      setPrice(1500000 + ((shotsPrice + reelsPrice + adminPrice) / 35) * 100);
     } else if (admin == "2") {
       adminPrice = 0;
-      setPrice(
-        1500000 +
-          ((shotsPrice + reelsPrice + adminPrice + teaserPrice + phonePrice) /
-            35) *
-            100
-      );
+      setPrice(1500000 + ((shotsPrice + reelsPrice + adminPrice) / 35) * 100);
     } else if (admin == "3") {
-      adminPrice = 2000000;
-      setPrice(
-        1000000 +
-          shotsPrice +
-          reelsPrice +
-          adminPrice +
-          teaserPrice +
-          phonePrice
-      );
+      adminPrice = 0;
+      setPrice(1500000 + ((shotsPrice + reelsPrice + adminPrice) / 35) * 100);
     } else if (admin == "4") {
       adminPrice = 0;
-      setPrice(
-        1000000 +
-          shotsPrice +
-          reelsPrice +
-          adminPrice +
-          teaserPrice +
-          phonePrice
-      );
+      setPrice(1500000 + ((shotsPrice + reelsPrice + adminPrice) / 35) * 100);
     }
 
     setDiscount(price * 0.8);
@@ -107,7 +83,6 @@ const Calculator = () => {
           />
 
           <hr className="my-3" />
-
 
           <Input
             type="number"
