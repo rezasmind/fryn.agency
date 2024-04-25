@@ -35,31 +35,28 @@ const Calculator = () => {
   };
 
   const calculatePrice = () => {
-    var shotsPrice = shots * 450000;
-    var reelsPrice = reels * 2800000;
+    var shotsPrice = shots * 100000;
+    var reelsPrice = reels * 200000;
     var teaserPrice = teaser * 5000000;
-    var phonePrice = phone * 1500000;
+    var phonePrice = phone * 750000;
     var adminPrice = 0;
 
     if (admin == "1") {
-      adminPrice = 5500000;
+      adminPrice = 2000000;
+
       setPrice(
-        1000000 +
-          shotsPrice +
-          reelsPrice +
-          adminPrice +
-          teaserPrice +
-          phonePrice
+        1500000 +
+          ((shotsPrice + reelsPrice + adminPrice + teaserPrice + phonePrice) /
+            35) *
+            100
       );
     } else if (admin == "2") {
-      adminPrice = 3500000;
+      adminPrice = 0;
       setPrice(
-        1000000 +
-          shotsPrice +
-          reelsPrice +
-          adminPrice +
-          teaserPrice +
-          phonePrice
+        1500000 +
+          ((shotsPrice + reelsPrice + adminPrice + teaserPrice + phonePrice) /
+            35) *
+            100
       );
     } else if (admin == "3") {
       adminPrice = 2000000;
@@ -101,19 +98,6 @@ const Calculator = () => {
           <Input
             type="number"
             name=""
-            id="reels"
-            className=" flex justify-center bg-transparent text-right"
-            color="primary"
-            onChange={changePhone}
-            labelPlacement="inside"
-            label="ریلز با گوشی"
-            placeholder=""
-          />
-          <hr className="my-3" />
-
-          <Input
-            type="number"
-            name=""
             color="primary"
             id="reels"
             className="   flex justify-center bg-transparent"
@@ -124,18 +108,6 @@ const Calculator = () => {
 
           <hr className="my-3" />
 
-          <Input
-            type="number"
-            name=""
-            color="primary"
-            labelPlacement="inside"
-            id="reels"
-            className=" flex justify-center bg-transparent"
-            onChange={changeTeaser}
-            label="تیزر"
-          />
-
-          <hr className="my-3" />
 
           <Input
             type="number"
@@ -214,9 +186,6 @@ const Calculator = () => {
 
             <h1 className="font-bold">
               قیمت نهایی: {price.toLocaleString()} تومان
-            </h1>
-            <h1 className="font-bold">
-              قیمت با تخفیف: {discount.toLocaleString()} تومان
             </h1>
           </div>
         </div>
